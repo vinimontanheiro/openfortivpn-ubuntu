@@ -24,23 +24,3 @@ $ sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb
 ```
 $ ./run.sh
 ```
-
-
-
-
-
-
-### Extra - Adding shotcut
-
-```
-$ gedit ~/.local/share/applications/openfortivpn.desktop
-```
-
-### Add to openfortivpn.desktop and save
-```
-  [Desktop Entry]
-  Type=Application
-  Terminal=false
-  Name=Openfortivpn
-  Exec=/path/to/file/run.sh  <--- put your path here
-```
